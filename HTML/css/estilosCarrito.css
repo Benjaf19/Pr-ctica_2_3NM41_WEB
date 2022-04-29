@@ -1,0 +1,202 @@
+.pagCarrito {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.artSelect{
+    display:flex;
+    margin-top: 10px;
+    width: 800px;
+    height: 465px;
+    margin-left: 100px;
+    display: block;
+    
+}
+
+.artSelect img {
+    display:flex;
+    height: 200px;
+    margin: 15px;
+    flex-direction: row;
+}
+
+.prod1 {
+    display:flex;
+    margin-top: 0px;
+    margin-right: 20px;
+    justify-content: space-around;
+}
+
+.prod2 {
+    display:flex;
+    margin-top: 0px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    justify-content: space-around;
+}
+
+.basura img{
+    height: 20px;
+}
+
+.comprarAhora {
+    display: flex;
+    background-color: lightgray;
+    width: 400px;
+    height: 465px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 100px;
+    flex-direction: column;
+    display: block;
+}
+
+.descuentos {
+    display:flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.pedido {
+    display:flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.comprar {
+    display:flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.ahora {
+    display:flex;
+    margin: 15px;
+    justify-content: center;
+    background-color: red;
+    border-radius: 15px;
+    margin-bottom: 60px;
+    color: aliceblue;
+    cursor: pointer;
+}
+.ahora:hover{
+    background-color: rgb(230, 101, 101) ;
+   
+    
+}
+
+.Aceptamos {
+    display:flex;
+    margin: 15px;
+    display: block;
+}
+.Aceptamos img{
+    height: 10px;
+    margin: 15px;
+} 
+body{
+    font-family: 'KoHo', sans-serif;
+}
+header {
+    display:flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    min-height: 90px;
+    border: 5px solid grey; 
+    font-family: 'Bebas Neue';
+    font-size: x-large;
+}
+
+.right{
+    display:flex;
+    align-items: center;
+}
+
+.logo {
+    display:flex;
+    margin-left: 20px;
+}
+.logo img{
+    height: 50px;
+}
+
+.iniciars {
+    display:flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.iniciars img {
+    height: 50px;
+}
+
+.carrito {
+    display:flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.carrito img {
+    height: 50px;
+}
+
+hr{
+    border: 2px solid #c7d0d8;
+    border-radius: 5px; 
+    width: 290px;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgba(167, 164, 164, 0.466);
+    color: rgb(0, 0, 0);
+}
+
+@media only screen and (max-width:450px) {
+    header{
+        flex-direction: column;
+        justify-content: space-around;
+        border-radius: 60px;
+        border-color: rgba(73, 68, 150, 0.658);
+    }
+}
+
+@media only screen and (max-width:600px) {
+    header{
+        flex-direction: column;
+        justify-content: space-around;
+        border-radius: 60px;
+        border-color: rgba(73, 68, 150, 0.658);
+    }
+}
+
+@media only screen and (max-width:800px) {
+    header{
+        flex-direction: column;
+        justify-content: space-around;
+        border-radius: 60px;
+        border-color: rgba(73, 68, 150, 0.658);
+    }
+    footer {
+        text-align: center;
+        padding: 3px;
+        background-color: rgba(167, 164, 164, 0.466);
+        color: black;
+        border-radius: 60px;
+      }
+}
+
+@media only screen and (max-width:1200px) {
+    header{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}

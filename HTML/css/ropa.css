@@ -1,0 +1,378 @@
+body{
+    font-family: 'KoHo', sans-serif;
+}
+header {
+    display:flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    min-height: 90px;
+    border: 5px solid grey;
+    font-family: 'Bebas Neue';
+    font-size: x-large;
+}
+h2{
+    font-size: xx-large;
+    
+}
+
+pre{
+    font-family: 'KoHo', sans-serif;
+
+}
+.right{
+    display:flex;
+    align-items: center;
+}
+
+.logo {
+    display:flex;
+    margin-left: 20px;
+}
+.logo img{
+    height: 50px;
+}
+
+.iniciars {
+    display:flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.iniciars img {
+    height: 50px;
+}
+
+.carrito {
+    display:flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.carrito img {
+    height: 50px;
+}
+
+aside {
+    display:flex;
+    padding-left: 10px;
+    margin-top: 25px;
+    border: solid #99a7b0;
+    border-width: 10px;
+
+    min-height: 40%;
+    width: 15%;
+}
+
+.cuerpo {
+    display: block;
+    width: 80%;
+    text-align: center;
+    margin: 5px;
+    margin-top: 25px;
+    float: right;
+}
+.Detalles{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    text-align: left;
+    margin-top: 50px;
+    
+}
+.boton{
+    background-color: #ef5349; 
+    border: none;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    font-family: 'Bebas Neue';
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 2px;
+    width: 400px;
+    height: auto;
+  }
+  .boton:hover {
+    color: rgba(255, 255, 255, 1) ;
+    box-shadow: 0 4px 16px rgb(0, 0, 0);
+    
+  }
+input{
+  padding: 10px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #54636d;
+  border-radius: 4px;
+  width:300px;
+}
+form>select{
+    padding: 10px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #54636d;
+  border-radius: 4px;
+  width:100%;
+  font-family: 'KoHo', sans-serif;
+  font-size: medium;
+}
+
+.modelos img{
+    width: 223px;
+    height: 320px;
+}
+
+.modelos{
+    margin-top: 25px;
+    display: inline-block;
+    align-items: center;    
+    margin-left: 50px;
+    margin-right: 50px;
+
+    
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+
+.descripcion{
+  text-align: center;
+  padding: 10px 20px;
+}
+.otros{
+    margin-top: 25px;
+    display: inline-block;
+    align-items: center;    
+    margin-left: 50px;
+    margin-right: 50px;
+
+    
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+
+.otros img{
+    width: 200px;
+    height: 200px;
+}
+
+#precio{
+    font-size: x-large;
+}
+#carrousel{
+    display: flex;
+    align-items: center; 
+   
+}
+#carrousel > img{
+    height: auto;
+    width: 390px;
+    margin-left: 100px;
+}
+#infoRopa{
+    background-color: rgba(151, 151, 151, 0.19) ;
+    margin-right: 100px;
+}
+#infoRopa>p{
+    margin-bottom: -20px;
+    margin: 12px;
+}
+#infoRopa>h3{
+    margin: 12px;
+    font-size: x-large;
+    font-weight: bold;
+}
+#nombrePrenda{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+#busca>img{
+    height: 35px;
+    filter: invert(100%);
+    
+}
+#busca{
+    position: absolute;
+    background-color: #ef5349;
+    border: none;
+    margin-top: 7px;
+    align-self: center;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+#busca:hover{
+    background-color: rgb(252, 1, 1) ;
+   
+    
+}
+.busqueda{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+}
+.busqueda>form>input{
+    border-width: 1px;
+}
+.busqueda>#search{
+    
+    margin-left: 100px;
+}
+.busqueda>#filtro{
+    display: inline-flex;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.busqueda>#filtro>label{
+    font-size: large;
+}
+@media only screen and (max-width:450px) {
+    header{
+        flex-direction: column;
+        justify-content: space-around;
+        border-radius: 60px;
+        border-color: rgba(73, 68, 150, 0.658);
+    }
+    aside {
+        display:flex;
+        padding-left: 10px;
+        margin-top: 25px;
+        border: solid rgba(89, 83, 126, 0.788);
+        border-width: 10px;
+    
+        min-height: 40%;
+        min-width: 30%;
+    }
+    .cuerpo {
+        display: block;
+        width: 30%;
+        text-align: center;
+        margin: 5px;
+        margin-top: 25px;
+        float: right;
+    }
+    
+    
+}
+footer {
+    position: fixed;
+    text-align: center;
+    left: 0;
+   bottom: 0;
+    width: 100%;
+    background-color: rgba(167, 164, 164, 0.466);
+    color: rgb(0, 0, 0);
+  }
+
+@media only screen and (max-width:600px) {
+    header{
+        flex-direction: column;
+        justify-content: space-around;
+        border-radius: 60px;
+        border-color: rgba(73, 68, 150, 0.658);
+    }
+}
+
+@media only screen and (max-width:800px) {
+    header{
+        flex-direction: column;
+        justify-content: space-around;
+        border-radius: 60px;
+        border-color: rgba(73, 68, 150, 0.658);
+    }
+    aside {
+        display:flex;
+        padding-left: 10px;
+        margin-top: 25px;
+        border: solid rgba(89, 83, 126, 0.788);
+        border-width: 10px;
+    
+        min-height: 40%;
+        min-width: 20%;
+    }
+    .cuerpo {
+        display: block;
+        width: 50%;
+        text-align: center;
+        margin: 5px;
+        margin-top: 25px;
+        float: right;
+    }
+    .descuentos img{
+        width: 100%;
+    }
+
+    .Detalles{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        text-align: left;
+        margin-top: 50px;
+        
+    }
+    .busqueda{
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        align-items: center;
+        align-content: center;
+        margin-top: 50px;
+        
+    }
+    
+}
+@media only screen and (max-width:1120px) {
+    header{
+        flex-direction: column;
+        justify-content: space-around;
+        border-radius: 60px;
+        border-color: rgba(73, 68, 150, 0.658);
+    }
+    aside {
+        display:flex;
+        padding-left: 10px;
+        margin-top: 25px;
+        border: solid rgba(89, 83, 126, 0.788);
+        border-width: 10px;
+    
+        min-height: 40%;
+        min-width: 20%;
+    }
+    .cuerpo {
+        display: block;
+        width: 50%;
+        text-align: center;
+        margin: 5px;
+        margin-top: 25px;
+        float: right;
+    }
+    .descuentos img{
+        width: 100%;
+    }
+
+    .Detalles{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        text-align: left;
+        margin-top: 50px;   
+    }
+   
+  
+    
+}
+@media only screen and (max-width:1200px) {
+    header{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    
+}
